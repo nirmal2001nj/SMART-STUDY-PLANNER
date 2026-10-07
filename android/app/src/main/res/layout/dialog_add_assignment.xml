@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Assignment Title"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_assign_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:hint="e.g. Chapter 4 Exercises"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Subject"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sp_assign_subject"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Due Date (DD/MM/YYYY)"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_assign_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:focusable="false"
+        android:clickable="true"
+        android:hint="Tap to choose date"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Priority"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sp_assign_priority"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_input" />
+
+</LinearLayout>

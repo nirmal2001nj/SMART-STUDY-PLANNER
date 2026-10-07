@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Study Planner</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your study journey</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Start organizing your studies efficiently</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="security_question">Security Question: Favorite pet or childhood nickname?</string>
+    <string name="security_answer">Recovery Answer</string>
+    <string name="login_button">Sign In</string>
+    <string name="register_button">Register</string>
+    <string name="new_user">Don\'t have an account? Sign up</string>
+    <string name="existing_user">Already have an account? Sign in</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Subject Name"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_sub_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:hint="e.g. Data Structures"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Difficulty"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sp_sub_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Study Goal (Total Hours)"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_sub_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:hint="e.g. 50"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Weekly Hours"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_sub_weekly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:hint="e.g. 5"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Initial Progress (%)"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_sub_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:hint="0 - 100"
+        android:inputType="number"
+        android:text="0" />
+
+</LinearLayout>
