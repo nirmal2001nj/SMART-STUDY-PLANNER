@@ -1,2 +1,4 @@
 arun|DAA|Medium|90.0|9.0|0
 siva|CA|Easy|90.0|8.0|0
+tarun|CA|Easy|90.0|8.0|0
+nirmal|CA|Easy|90.0|8.0|0

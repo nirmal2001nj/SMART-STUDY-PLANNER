@@ -1,12 +1,5 @@
-# Build outputs
 out/
-android/build/
-*.class
-
-# IDE
+target/
 .idea/
-*.iml
+*.class
 .DS_Store
-
-# User private runtime data (optional)
-# user_data/
