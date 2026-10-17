@@ -1,5 +1,29 @@
+# Build outputs
 out/
 target/
-.idea/
 *.class
+android/build/
+build/
+.gradle/
+*.dex
+*.apk.idsig
+res.zip
+
+# IDE & Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# User runtime private data
+user_data/
